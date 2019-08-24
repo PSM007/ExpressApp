@@ -1,0 +1,53 @@
+{
+  "name": "PSM",
+  "version": "1.0.0",
+  "description": "Class",
+  "main": "app.js",
+  "author": "Prathamesh, Mandavkar <psm007994@gmail.com>",
+  "contributors": [
+    "Prathamesh, Mandavkar <psm007994@gmail.com>"
+  ],
+  "license": "MIT",
+  "engine": "node >= 8.9.4",
+  "scripts": {
+    "start": "node app.js",
+    "build": "webpack --progress --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.2.2",
+    "@babel/node": "7.2.2",
+    "@babel/plugin-proposal-class-properties": "7.2.3",
+    "@babel/plugin-proposal-json-strings": "7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-syntax-import-meta": "7.2.0",
+    "@babel/preset-env": "7.2.3",
+    "@babel/preset-typescript": "7.1.0",
+    "@babel/register": "7.0.0",
+    "@types/express": "4.16.0",
+    "@types/helmet": "0.0.42",
+    "@types/morgan": "1.7.35",
+    "@types/node-rsa": "0.4.3",
+    "@types/js-base64": "2.3.1",
+    "awesome-typescript-loader": "5.2.1",
+    "babel-loader": "8.0.5",
+    "babel-plugin-module-resolver": "3.1.1",
+    "copy-webpack-plugin": "4.5.3",
+    "html-webpack-plugin": "3.2.0",
+    "tslint": "5.12.0",
+    "tslint-config-airbnb": "5.11.1",
+    "typescript": "3.2.2",
+    "webpack": "4.28.3",
+    "webpack-cli": "3.2.1",
+    "webpack-node-externals": "1.7.2"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "es6-promise": "4.2.5",
+    "express": "4.16.4",
+    "helmet": "3.15.0",
+    "morgan": "1.9.1",
+    "node-rsa": "1.0.2",
+    "js-base64": "2.5.0"
+  }
+}
